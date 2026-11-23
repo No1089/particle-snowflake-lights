@@ -81,3 +81,8 @@ Home Assistant's HomeKit bridge turns into one switch per pattern. The firmware 
 `ha/light` on every change (touch logo included), every 15 minutes, and when Home Assistant publishes
 `hass-sync`; Home Assistant drives it through the `mode`, `brightness` and `color` functions. Nothing to
 configure: add the device in the integration.
+
+## Licence
+
+MIT, see [LICENSE](LICENSE). Uses the `neopixel` library (LGPL-3.0), fetched at build time. Particle and
+the Snowflake belong to Particle Industries.
